@@ -47,3 +47,8 @@ _testmain.go
 *.png
 *.jpeg
 *.psd
+
+
+
+.project.js
+
