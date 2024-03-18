@@ -1,40 +1,128 @@
-.logo img{
-    height: 100px;
-    background-color: antiquewhite;
-    
-
+.logo img {
+    position: relative;
+    right: 40px;
+  height: 100px;
+  background-color: aquamarine;
+  border-radius: 30px;
+  float: left;
+  display: flex;
 }
 
-#navigation{
-    justify-content: space-between;
-height: 130px ;
-width: 100%;
-color: aqua;
-background-color: aliceblue;
-width: 75vi;
-    margin: auto;
-}
-body{
-    min-height: fit-content;
+#navigation {
+  padding-top: 25px;
+  justify-content: space-between;
+
+  justify-items: right;
+
+  width: 60%;
+  display: flex;
+
+  height: 200px;
+
+  color: aqua;
+  background-color: white;
+
+  margin: auto;
 }
 
-#content{
-    height: 70vh;
-    background-color: aquamarine;
-    width: 75vi;
-    margin: auto;
-    margin-bottom: 5px;
-}
-
-#foot{
-    height: 100px;
-    width: 75vi;
-    margin: auto;
-    background-color: black;
-    color: aliceblue;
+.nav-links a {
     text-align: center;
-    margin-bottom : -10px;
-    margin-top:30px;
+    
+  height: 30px;
+  font-weight: bold;
+  float: right;
+  vertical-align: middle;
 
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  height: 50px;
+  width: 55px;
+  
 
+  /*background-color: rgb(14, 216, 74); */
+  float: left;
+  /* border: 1px solid rgb(0, 2, 4); */
+  text-decoration: none;
+ /* justify-content: space-around;*/
+  margin: 33px;
+  border-radius: 10px;
+  color: rgb(0, 2, 6);
+}
+
+body {
+  min-height: 100px;
+
+}
+.activities{
+    display: block;
+    
+    box-sizing: border-box;
+    margin: auto;
+    
+    
+}
+.activities .box{
+    justify-content: space-between;
+    
+    border-radius: 15px;
+    display: flex;
+    height: 150px;
+    width: auto;
+    
+    margin-top: 30px;
+    border: 1px ;
+    margin-top: 40px;
+}
+.baslik {
+    text-align: center;
+    width: 20%;
+    background-color: red;
+    color: rgb(248, 247, 247);
+}
+.aciklama 
+{text-align: center;
+    width: 40%;
+
+}
+.foto{
+    text-align: center;
+    width: 40%;
+}
+.box img{
+    height: 150px;
+    width: 310px;
+    border-radius: 5px;
+}
+
+#content {
+  height: 70vh;
+  background-color: rgb(253, 253, 253);
+  width: 75vi;
+  height: 900px;
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+#foot {
+
+    
+  height: 50px;
+  width: 75vi;
+  margin: auto;
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  margin-bottom: -10px;
+  margin-top: 30px;
+  position: static;
+  display: block;
+  
+
+}
+
+#foot a{
+    color: aliceblue;
+    text-decoration: none;
+    margin: 40px;
+    justify-content: space-between;
 }
