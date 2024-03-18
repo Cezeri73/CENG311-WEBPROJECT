@@ -1,13 +1,25 @@
 .logo img {
-    position: relative;
+    
     right: 40px;
   height: 100px;
   background-color: aquamarine;
   border-radius: 30px;
-  float: left;
-  display: flex;
+  
+  display: block;
+  flex-shrink: initial;
 }
+header{
+    font-family: fantasy;
+    font-size: large;
+  text-align: center;
+  color: red;
+  text-orientation: sideways;
 
+  
+    background-color: white ;
+    height: 200px;
+    vertical-align: middle;
+}
 #navigation {
   padding-top: 25px;
   justify-content: space-between;
@@ -106,7 +118,7 @@ body {
 #foot {
 
     
-  height: 50px;
+  height: 75px;
   width: 75vi;
   margin: auto;
   background-color: black;
