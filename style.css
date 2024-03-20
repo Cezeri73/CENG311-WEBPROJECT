@@ -179,7 +179,7 @@ iframe{
 }
 .Donation-contentPart{
   flex-wrap: wrap;
-  background-color: #f7f9fc;
+  background-color: white;
   height: 100%;
   width: 100%;
   display: flex;
@@ -190,20 +190,27 @@ iframe{
 
 }
 .pic .img{
-  width: fit-content;
+  object-fit: cover;
+  width: 100%;
+  align-items: center;
+  
+  
   
 }
 .Donation-contentPart .box{
-  width: 310px;
-  height: 45vh;
+  
+  text-align: center;
+  width: 31%;
+  height: 50vh;
   background-color: white;
-  border: 1px solid;
+  border: none solid;
   
   border-radius: 10px;
-  padding: 5px;
-  gap: 20px;
+  padding: 3px;
+  margin: 15px;
   display: block;
   margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   
   
 
@@ -211,23 +218,26 @@ iframe{
   
 }
 .Donation-contentPart #bagis-text{
+  margin-top: 5px;
   width: fit-content;
 }
 .Donation-contentPart #bagis-button{
+
   
-  
-  margin-left:15px ;
+  margin-top: 5px;
+  margin-left:10px ;
   width: 35%;
   background-color: rgb(31, 173, 78);
   color: white;
   border: none;
-  line-height:3 ;
-  border-radius: 10px;
+  line-height: 3;
+  border-radius: 5px;
+
+
 }
 #bagis-link{
+  text-decoration: none;
   color: white;
-  border: none;
-  bor
 }
 
 #foot {
