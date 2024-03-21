@@ -163,7 +163,7 @@ body {
 }
 
 #about_hak {
-  margin-top: 100px;
+  
   text-align: center;
 }
 
@@ -420,11 +420,12 @@ iframe {
 /*The Css for footer effect all pages because of they have same footer */
 
 #foot {
+  
   height: 75px;
   width: 75vi;
   margin: auto;
-  background-color: rgb(125, 238, 63);
-  color: aliceblue;
+  background-color: rgb(10, 11, 11);
+  
   text-align: center;
   margin-bottom: -10px;
   margin-top: 30px;
@@ -435,16 +436,17 @@ iframe {
 }
 
 #foot a {
+  
   font-family: fantasy;
-
+  font-weight: bold;
   border-radius: 5px;
-  background-color: rgb(234, 7, 7);
-  color: aliceblue;
+  background-color: rgb(251, 252, 252);
+  color: rgb(245, 3, 3);
   text-decoration: none;
   margin: 40px;
   justify-content: space-between;
 }
 #foot p {
-  color: rgb(35, 35, 34);
+  color: rgb(245, 245, 243);
 }
 /*End of the css for Footer */
