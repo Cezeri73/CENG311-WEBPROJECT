@@ -142,20 +142,28 @@ body {
   background-color: white;
   width: 75vi;
   min-height: 100vh;
+  height: 1050px;
 
   margin: auto;
   margin-bottom: 5px;
 }
 
 /* This style is for AboutUs.html */
+.aboutus_content {
+  display: block;
+
+
+
+}
 #video_about {
   width: 75vi;
   height: 50vh;
   margin: auto;
-  margin-bottom: 20px;
+  
 }
 
 #about_hak {
+  margin-top: 100px;
   text-align: center;
 }
 
@@ -259,11 +267,11 @@ iframe {
   width: 31%;
   height: 420px;
   background-color: white;
-  border: none solid;
+  
 
   border-radius: 10px;
-  padding: 3px;
-  margin: 15px;
+ 
+  margin: 40px;
   display: block;
   margin: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
