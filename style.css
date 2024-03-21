@@ -274,3 +274,139 @@ iframe{
     margin: 40px;
     justify-content: space-between;
 }
+
+
+#video_about{
+  width: 75vi;
+  height: 50vh;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+#about_hak{
+  text-align: center;
+}
+
+#main_hak{
+  text-align: center;
+  font-style: italic;
+  font-size:xx-large;
+}
+
+.main_logo{
+  /* background-color: brown; */
+  width: 600px;
+  height: 200px;
+  margin: auto;
+}
+
+.main_logo img{
+  width: 180px;
+  height: 180px;
+  margin-left: 13px;
+  margin-top: 7px;
+}
+
+
+.main2_logo{
+  /* background-color:chartreuse; */
+  width: 900px;
+  height: 550px;
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+}
+
+.main3_logo{
+  /* border-style: solid; */
+  /* background-color:crimson; */
+  width: 280px;
+  height: 450px;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.main4_logo{
+  /* border-style: solid; */
+  /* background-color:black; */
+  width: 250px;
+  height: 250px;
+  margin-left: 13px;
+}
+
+.main4_logo img{
+  width: 250px;
+  height: 250px;
+}
+
+.main5_logo{
+  border-style: solid;
+  background-color:black;
+  width: 250px;
+  height: 30px;
+  margin-left: 13px;
+  margin-top: 20px;
+  border-radius: 80px;
+}
+
+.main5_logo a{
+ margin-left: 70px;
+ margin-top:auto;
+ text-decoration: none;
+ color: white;
+}
+
+.main6_logo{
+  border-style: solid;
+  background-color:black;
+  width: 350px;
+  height: 20px;
+  float:left;
+  margin-left: 325px;
+  margin-top: -20px;
+  border-radius: 80px;
+}
+
+.main6_logo a{
+  margin-left: 120px;
+  margin-top: auto;
+  text-decoration: none;
+  color: white;
+ }
+
+ .galery_logo1{
+  /* background-color:chartreuse;   */
+  width: 900px;
+  min-height: 550px;
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+  .galery_logo2{
+  
+  /* border-style: solid; */
+  /* background-color:crimson;   */
+  width: 320px;
+  height: 250px;
+  justify-content: space-between;
+  margin: auto;
+  margin-left: 65px;
+  margin-top: 20px;
+  border-radius: 20px;
+  
+ } 
+
+ .galery_logo2 img{
+  width: 320px;
+  height: 170px;
+  border-radius: 18px 18px 0px 0px;
+ } 
+
+ #galeri_hak{
+  text-align: center;
+  font-style: italic;
+}
+
