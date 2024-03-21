@@ -21,6 +21,8 @@ header{
     vertical-align: middle;
 }
 #navigation {
+  
+  
   padding-top: 25px;
   justify-content: space-between;
 
@@ -38,6 +40,8 @@ header{
 }
 
 .nav-links a {
+  
+  text-shadow: rgb(1, 166, 59) 1px 0 10px ;
     text-align: center;
     
   height: 30px;
@@ -123,7 +127,7 @@ body {
 
 #content {
   
-  background-color: rgb(252, 250, 250);
+  background-color: white;
   width: 75vi;
   min-height: 100vh;
   
@@ -131,19 +135,28 @@ body {
   margin-bottom: 5px;
 }
 #video_about iframe{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
   height: 450px;
 align-items: center;
 border-radius: 5px;
 }
 .form-container {
+  box-shadow: 0 4px 8px 0 rgba(13, 13, 13, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
   width: 50%;
   margin: 0 auto;
+  
 }
-.form-container h3{
+.form-container h3{ 
+  
   text-align: center;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.info-container{
+  text-align: center;
+}
 
 input[type="text"],
 input[type="email"],
@@ -183,6 +196,7 @@ input[type="submit"]:hover {
 }
 
 #mapArea{
+  
   color: aliceblue;
   background-color: antiquewhite;
 }
@@ -190,6 +204,8 @@ input[type="submit"]:hover {
   text-align: center;
 }
 iframe{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
   width: 100%;
   
 }
@@ -277,6 +293,7 @@ iframe{
 }
 
 .main_logo{
+  
   /* background-color: brown; */
   width: 600px;
   height: 200px;
@@ -379,6 +396,8 @@ iframe{
 }
 
   .galery_logo2{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
   
   /* border-style: solid; */
   /* background-color:crimson;   */
@@ -433,4 +452,7 @@ iframe{
     text-decoration: none;
     margin: 40px;
     justify-content: space-between;
+}
+#foot p{
+  color: rgb(35, 35, 34);
 }
