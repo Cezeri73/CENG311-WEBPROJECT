@@ -1,28 +1,37 @@
+/* Here the styling code for logo */
 .logo img {
-    
-    right: 40px;
+  right: 40px;
   height: 100px;
   background-color: aquamarine;
   border-radius: 30px;
-  
+
   display: block;
   flex-shrink: initial;
 }
-header{
-    font-family: fantasy;
-    font-size: large;
+
+/* Logo css finish here */ 
+
+
+/*Sytle part for Header Part */
+header {
+  font-family: fantasy;
+  font-size: large;
   text-align: center;
   color: rgb(27, 221, 124);
   text-orientation: sideways;
 
-  
-    background-color: white ;
-    height: 150px;
-    vertical-align: middle;
+  background-color: white;
+  height: 150px;
+  vertical-align: middle;
 }
+/* Header css part is done here */
+
+
+
+
+
+/*Sytle part for navigation part  start here */
 #navigation {
-  
-  
   padding-top: 25px;
   justify-content: space-between;
 
@@ -39,11 +48,11 @@ header{
   margin: auto;
 }
 
+/*Sytle part for navigation links  start here*/
 .nav-links a {
-  
-  text-shadow: rgb(20, 20, 20) 1px 0 10px ;
-    text-align: center;
-    
+  text-shadow: rgb(20, 20, 20) 1px 0 10px;
+  text-align: center;
+
   height: 30px;
   font-weight: bold;
   float: right;
@@ -53,108 +62,132 @@ header{
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   height: 50px;
   width: 55px;
-  
 
-  /*background-color: rgb(14, 216, 74); */
   float: left;
-  /* border: 1px solid rgb(0, 2, 4); */
+
   text-decoration: none;
- /* justify-content: space-around;*/
+
   margin: 33px;
   border-radius: 10px;
   color: rgb(0, 2, 6);
 }
-a{
+/* ---Css for navigation part is done here----*/
+
+
+/* Style for links that remove the bottom line */
+a {
   text-decoration: none;
 }
+
+
+
+/*Sytle part  heihgt of body*/
 body {
   min-height: 100px;
+}
 
-}
-.activities{
-    display: block;
-    
-    box-sizing: border-box;
-    margin: auto;
-    
-    
-}
-.info-container{
+/*Sytle part for acvities.html page */
+.activities {
   display: block;
-  margin-top:20px ;
-  
-  
+
+  box-sizing: border-box;
+  margin: auto;
 }
-.info-container a{
+
+.info-container {
+  display: block;
+  margin-top: 20px;
+}
+.info-container a {
   text-align: center;
   margin: 17px;
 }
-.activities .box{
+.activities .box {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    justify-content: space-between;
-    
-    border-radius: 15px;
-    display: flex;
-    height: 150px;
-    width: auto;
-    
-    margin-top: 30px;
-    border: 1px ;
-    margin-top: 60px;
-    gap: 20px;
+  justify-content: space-between;
 
-  }
+  border-radius: 15px;
+  display: flex;
+  height: 150px;
+  width: auto;
+
+  margin-top: 30px;
+  border: 1px;
+  margin-top: 60px;
+  gap: 20px;
+}
 .baslik {
-    text-align: center;
-    width: 20%;
-    background-color: red;
-    color: rgb(248, 247, 247);
+  text-align: center;
+  width: 20%;
+  background-color: red;
+  color: rgb(248, 247, 247);
 }
-.aciklama 
-{text-align: center;
-    width: 40%;
+.aciklama {
+  text-align: center;
+  width: 40%;
+}
+.foto {
+  text-align: right;
+  width: 40%;
+}
+.box img {
+  height: 150px;
+  width: 310px;
+  border-radius: 5px;
+}
+/* ----------- Activities.html styling ended here ----------- */
 
-}
-.foto{
-    text-align: right;
-    width: 40%;
-}
-.box img{
-    height: 150px;
-    width: 310px;
-    border-radius: 5px;
-}
-
+/*Sytle part for content id that all pages include it  */
 #content {
-  
   background-color: white;
   width: 75vi;
   min-height: 100vh;
-  
+
   margin: auto;
   margin-bottom: 5px;
 }
-#video_about iframe{
+
+/* This style is for AboutUs.html */
+#video_about {
+  width: 75vi;
+  height: 50vh;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+#about_hak {
+  text-align: center;
+}
+
+#main_hak {
+  text-align: center;
+  font-style: italic;
+  font-size: xx-large;
+}
+#video_about iframe {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
   height: 450px;
-align-items: center;
-border-radius: 5px;
+  align-items: center;
+  border-radius: 5px;
 }
+/* ------------AboutUs css End --------------- */
+
+/* This styling is for Contact.html */
+
 .form-container {
-  box-shadow: 0 4px 8px 0 rgba(13, 13, 13, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(13, 13, 13, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
   width: 50%;
   margin: 0 auto;
-  
 }
-.form-container h3{ 
-  
+.form-container h3 {
   text-align: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.info-container{
+.info-container {
   text-align: center;
 }
 
@@ -162,7 +195,6 @@ input[type="text"],
 input[type="email"],
 select,
 textarea {
-  
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
@@ -171,9 +203,8 @@ textarea {
   box-sizing: border-box;
 }
 
-
 input[type="submit"] {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   padding: 14px 20px;
   border: none;
@@ -186,128 +217,97 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #baf0bd;
 }
-.contact-links a{
+.contact-links a {
   text-align: center;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   color: rgb(4, 4, 4);
   text-decoration: none;
   margin-top: 40px;
- justify-content: center;
+  justify-content: center;
 }
 
-#mapArea{
-  
+#mapArea {
   color: aliceblue;
   background-color: antiquewhite;
 }
-.mapArea h3{
+.mapArea h3 {
   text-align: center;
 }
-iframe{
+iframe {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
   width: 100%;
-  
 }
-.Donation-contentPart{
+/* End of the Contact.htmll css part */
+
+/* styling part for donation.html */
+
+.Donation-contentPart {
   flex-wrap: wrap;
   background-color: white;
   height: 100%;
   width: 100%;
   display: flex;
-  
-  
-
-  
-
 }
-.pic .img{
+.pic .img {
   object-fit: cover;
   width: 100%;
   align-items: center;
-  
-  
-  
 }
-.Donation-contentPart .box{
-  
+.Donation-contentPart .box {
   text-align: center;
   width: 31%;
   height: 420px;
   background-color: white;
   border: none solid;
-  
+
   border-radius: 10px;
   padding: 3px;
   margin: 15px;
   display: block;
   margin: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  
-  
-
-  
-  
 }
-.Donation-contentPart #bagis-text{
+.Donation-contentPart #bagis-text {
   margin-top: 5px;
   width: fit-content;
 }
-.Donation-contentPart #bagis-button{
-
-  
+.Donation-contentPart #bagis-button {
   margin-top: 5px;
-  margin-left:10px ;
+  margin-left: 10px;
   width: 35%;
   background-color: rgb(31, 173, 78);
   color: white;
   border: none;
   line-height: 3;
   border-radius: 5px;
-
-
 }
-#bagis-link{
+#bagis-link {
   text-decoration: none;
   color: white;
 }
+/* ----End of the donation.html css---- */
 
 
 
 
-#video_about{
-  width: 75vi;
-  height: 50vh;
-  margin: auto;
-  margin-bottom: 20px;
-}
 
-#about_hak{
-  text-align: center;
-}
+/* Here styling is for index.html that include main_logo parts these are seperate boxes */
 
-#main_hak{
-  text-align: center;
-  font-style: italic;
-  font-size:xx-large;
-}
-
-
-.main_logo{
+.main_logo {
   width: 600px;
   height: 200px;
   margin: auto;
 }
 
-.main_logo img{
+.main_logo img {
   width: 180px;
   height: 180px;
   margin-left: 13px;
   margin-top: 7px;
 }
 
-
-.main2_logo{
+.main2_logo {
   width: 900px;
   height: 500px;
   margin: auto;
@@ -315,7 +315,7 @@ iframe{
   display: flex;
 }
 
-.main3_logo{
+.main3_logo {
   width: 280px;
   height: 400px;
   justify-content: space-between;
@@ -323,20 +323,18 @@ iframe{
   margin-top: 15px;
 }
 
-
-.main4_logo{
+.main4_logo {
   width: 250px;
   height: 250px;
   margin-left: 13px;
 }
 
-.main4_logo img{
+.main4_logo img {
   width: 250px;
   height: 250px;
 }
 
-
-.main5_logo{
+.main5_logo {
   text-align: center;
   width: 250px;
   height: 30px;
@@ -344,44 +342,39 @@ iframe{
   margin-top: 20px;
   border-radius: 80px;
 }
-#btn{
+#btn {
   text-align: center;
 }
-#btn a{
+#btn a {
   text-align: center;
   margin-top: 5px;
-  margin-left:10px ;
+  margin-left: 10px;
   width: 150px;
   background-color: rgb(134, 198, 159);
   color: rgb(1, 1, 1);
   border: none;
   line-height: 2;
-  border-radius: 5px; 
+  border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  
-
 }
 
-.main5_logo a{
+.main5_logo a {
   text-align: center;
-  
+
   margin-top: 5px;
-  margin-left:10px ;
+  margin-left: 10px;
   width: 150px;
   background-color: rgb(134, 198, 159);
   color: rgb(1, 1, 1);
   border: none;
   line-height: 4;
-  border-radius: 5px; 
+  border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  
 }
+/* THe index.html css part is done here */
 
-
-
-
- .galery_logo1{
-  /* background-color:chartreuse;   */
+/* The Gallery.html css start here */
+.galery_logo1 {
   width: 900px;
   min-height: 550px;
   margin: auto;
@@ -390,10 +383,9 @@ iframe{
   flex-wrap: wrap;
 }
 
-  .galery_logo2{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.galery_logo2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-  
   /* border-style: solid; */
   /* background-color:crimson;   */
   width: 320px;
@@ -403,23 +395,23 @@ iframe{
   margin-left: 65px;
   margin-top: 20px;
   border-radius: 20px;
-  
- } 
+}
 
- .galery_logo2 img{
+.galery_logo2 img {
   width: 320px;
   height: 170px;
   border-radius: 18px 18px 0px 0px;
- } 
+}
 
- #galeri_hak{
+#galeri_hak {
   text-align: center;
   font-style: italic;
 }
+/*Gallery css styling is finish here */
+
+/*The Css for footer effect all pages because of they have same footer */
 
 #foot {
-
-    
   height: 75px;
   width: 75vi;
   margin: auto;
@@ -432,22 +424,19 @@ iframe{
   bottom: 0;
   display: block;
   border-radius: 10px;
-
-  
-
 }
 
-#foot a{
-
+#foot a {
   font-family: fantasy;
-  
-  border-radius:5px ;
+
+  border-radius: 5px;
   background-color: rgb(234, 7, 7);
-    color: aliceblue;
-    text-decoration: none;
-    margin: 40px;
-    justify-content: space-between;
+  color: aliceblue;
+  text-decoration: none;
+  margin: 40px;
+  justify-content: space-between;
 }
-#foot p{
+#foot p {
   color: rgb(35, 35, 34);
 }
+/*End of the css for Footer */
