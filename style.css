@@ -292,9 +292,8 @@ iframe{
   font-size:xx-large;
 }
 
+
 .main_logo{
-  
-  /* background-color: brown; */
   width: 600px;
   height: 200px;
   margin: auto;
@@ -309,7 +308,6 @@ iframe{
 
 
 .main2_logo{
-  /* background-color:chartreuse; */
   width: 900px;
   height: 500px;
   margin: auto;
@@ -318,8 +316,6 @@ iframe{
 }
 
 .main3_logo{
-  /* border-style: solid; */
-  /* background-color:crimson; */
   width: 280px;
   height: 400px;
   justify-content: space-between;
@@ -327,9 +323,8 @@ iframe{
   margin-top: 15px;
 }
 
+
 .main4_logo{
-  /* border-style: solid; */
-  /* background-color:black; */
   width: 250px;
   height: 250px;
   margin-left: 13px;
@@ -340,8 +335,8 @@ iframe{
   height: 250px;
 }
 
+
 .main5_logo{
-  
   text-align: center;
   width: 250px;
   height: 30px;
