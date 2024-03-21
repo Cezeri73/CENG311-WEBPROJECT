@@ -12,7 +12,7 @@ header{
     font-family: fantasy;
     font-size: large;
   text-align: center;
-  color: red;
+  color: rgb(27, 221, 124);
   text-orientation: sideways;
 
   
@@ -41,7 +41,7 @@ header{
 
 .nav-links a {
   
-  text-shadow: rgb(1, 166, 59) 1px 0 10px ;
+  text-shadow: rgb(20, 20, 20) 1px 0 10px ;
     text-align: center;
     
   height: 30px;
