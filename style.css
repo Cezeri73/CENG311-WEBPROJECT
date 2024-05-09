@@ -191,7 +191,8 @@ body {
   box-shadow: 0 4px 8px 0 rgba(13, 13, 13, 0.2),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-  width: 50%;
+  width: 70%;
+  height: fit-content;
   margin: 0 auto;
 }
 .form-container h3 {
@@ -250,10 +251,24 @@ iframe {
 
   width: 100%;
 }
+
+
+#clock {
+  float: right;
+  position: static;
+  top: 10px; /* Yukarıdan uzaklık */
+  right: 10px; /* Sağdan uzaklık */
+  font-size: 1.5em; /* Yazı büyüklüğü */
+  background-color: #ffffff; /* Arka plan rengi */
+  padding: 10px; /* İç boşluk */
+  border-radius: 5px; /* Köşe yuvarlaklığı */
+}
 /* End of the Contact.htmll css part */
 
 /* styling part for donation.html */
-
+ #currency-rates{
+  text-align: center;
+ }
 .Donation-contentPart {
   flex-wrap: wrap;
   background-color: white;
@@ -262,7 +277,7 @@ iframe {
   display: flex;
 }
 .pic .img {
-  gap: 10px;
+  gap: 7px;
   object-fit: cover;
   width: 100%;
   align-items: center;
@@ -400,7 +415,7 @@ iframe {
   text-align: center;
   width: 80%; /* Galerinin genişliği */
   margin: 0 auto; /* Ortalamak için */
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
 }
 
 /* Resimler için sabit boyut */
@@ -408,6 +423,9 @@ iframe {
   width: 100%; /* Resim genişliği */
   height: 450px; /* Resim yüksekliği */
   object-fit: cover; /* Kesmeden doldur */
+  border: 5px solid #000; /* Varsayılan siyah kenarlık */
+
+
 }
 
 /* Slick Carousel için özel stiller */
