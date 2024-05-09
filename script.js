@@ -173,3 +173,28 @@ $(document).ready(function () {
     }
   });
 });
+
+$(document).ready(function () {
+  // Nav bar animation on hover
+  $(".nav-links a").hover(
+    function () {
+      $(this).animate({ fontSize: "1.5em" }, 300); // Büyütme
+    },
+    function () {
+      $(this).animate({ fontSize: "1em" }, 300); // Eski boyuta dönme
+    }
+  );
+
+  // Header animation on page load
+  $("header h1").hide().fadeIn(1500); // Başlık fade in animasyonu
+
+  // Box hover animation
+  $(".box").hover(
+    function () {
+      $(this).animate({ backgroundColor: "#f0f0f0" }, 300); // Renk değişimi
+    },
+    function () {
+      $(this).animate({ backgroundColor: "#ffffff" }, 300); // Eski renge dönme
+    }
+  );
+});
