@@ -174,8 +174,6 @@ $(document).ready(function () {
   });
 });
 
-
-
 //jquery animation
 $(document).ready(function () {
   // Nav bar animation on hover
@@ -201,7 +199,6 @@ $(document).ready(function () {
     }
   );
 });
-
 
 //code for jqueery accordion plugin
 $(document).ready(function () {
