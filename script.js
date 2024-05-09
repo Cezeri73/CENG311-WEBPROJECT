@@ -174,6 +174,9 @@ $(document).ready(function () {
   });
 });
 
+
+
+//jquery animation
 $(document).ready(function () {
   // Nav bar animation on hover
   $(".nav-links a").hover(
@@ -197,4 +200,13 @@ $(document).ready(function () {
       $(this).animate({ backgroundColor: "#ffffff" }, 300); // Eski renge dönme
     }
   );
+});
+
+
+//code for jqueery accordion plugin
+$(document).ready(function () {
+  $("#accordion").accordion({
+    collapsible: true,
+    heightStyle: "content",
+  });
 });
