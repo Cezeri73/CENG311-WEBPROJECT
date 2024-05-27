@@ -207,3 +207,21 @@ $(document).ready(function () {
     heightStyle: "content",
   });
 });
+
+//Json from data file
+
+$(document).ready(function () {
+  $.ajax({
+    url: "data.json",
+    dataType: "json",
+    success: function (data) {
+      // AJAX isteği başarılı olduğunda yapılacak işlemler
+      $("#misyon").text(data.misyon); // Misyon metnini yerleştir
+      $("#vizyon").text(data.vizyon); // Vizyon metnini yerleştir
+    },
+    error: function (xhr, status, error) {
+      // AJAX isteği başarısız olduğunda yapılacak işlemler
+      console.error(error);
+    },
+  });
+});

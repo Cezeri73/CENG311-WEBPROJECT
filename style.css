@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -13,8 +13,7 @@
   flex-shrink: initial;
 }
 
-/* Logo css finish here */ 
-
+/* Logo css finish here */
 
 /*Sytle part for Header Part */
 header {
@@ -29,10 +28,6 @@ header {
   vertical-align: middle;
 }
 /* Header css part is done here */
-
-
-
-
 
 /*Sytle part for navigation part  start here */
 #navigation {
@@ -77,13 +72,10 @@ header {
 }
 /* ---Css for navigation part is done here----*/
 
-
 /* Style for links that remove the bottom line */
 a {
   text-decoration: none;
 }
-
-
 
 /*Sytle part  heihgt of body*/
 body {
@@ -155,19 +147,14 @@ body {
 /* This style is for AboutUs.html */
 .aboutus_content {
   display: block;
-
-
-
 }
 #video_about {
   width: 75vi;
   height: 50vh;
   margin: auto;
-  
 }
 
 #about_hak {
-  
   text-align: center;
 }
 
@@ -252,7 +239,6 @@ iframe {
   width: 100%;
 }
 
-
 #clock {
   float: right;
   position: static;
@@ -266,9 +252,9 @@ iframe {
 /* End of the Contact.htmll css part */
 
 /* styling part for donation.html */
- #currency-rates{
+#currency-rates {
   text-align: center;
- }
+}
 .Donation-contentPart {
   flex-wrap: wrap;
   background-color: white;
@@ -283,26 +269,22 @@ iframe {
   align-items: center;
 }
 .Donation-contentPart .box {
-  
   text-align: center;
   width: 31%;
   height: 420px;
   background-color: white;
-  
 
   border-radius: 10px;
- 
+
   margin: 40px;
   display: block;
   margin: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
 }
-.comment p{
+.comment p {
   margin-top: 20px;
 }
 .Donation-contentPart #bagis-text {
-  
   margin-top: 100px;
   width: fit-content;
 }
@@ -321,10 +303,6 @@ iframe {
   color: white;
 }
 /* ----End of the donation.html css---- */
-
-
-
-
 
 /* Here styling is for index.html that include main_logo parts these are seperate boxes */
 
@@ -409,13 +387,11 @@ iframe {
 
 /* The Gallery.html css start here */
 
-
 /*Gallery css styling is finish here */
 .slider {
   text-align: center;
   width: 80%; /* Galerinin genişliği */
   margin: 0 auto; /* Ortalamak için */
-  
 }
 
 /* Resimler için sabit boyut */
@@ -424,28 +400,25 @@ iframe {
   height: 450px; /* Resim yüksekliği */
   object-fit: cover; /* Kesmeden doldur */
   border: 5px solid #000; /* Varsayılan siyah kenarlık */
-
-
 }
 
 /* Slick Carousel için özel stiller */
 .slick-prev {
   left: -30px; /* Sol ok için konum */
- background-color: black;
+  background-color: black;
 }
 .slick-next {
   right: -30px; /* Sağ ok için konum */
- background-color: black;
+  background-color: black;
 }
 /*The Css for footer effect all pages because of they have same footer */
 
 #foot {
-  
   height: 75px;
   width: 100%;
   margin: auto;
   background-color: rgb(27, 221, 124);
-  
+
   text-align: center;
   margin-bottom: -10px;
   margin-top: 30px;
@@ -456,7 +429,6 @@ iframe {
 }
 
 #foot a {
-  
   font-family: fantasy;
   font-weight: bold;
   border-radius: 5px;
@@ -467,12 +439,28 @@ iframe {
   justify-content: space-between;
 }
 #foot p {
-  
   color: rgb(245, 245, 243);
 }
 /*End of the css for Footer */
 
+.misyon {
+  
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: large;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+  justify-content: center;
+}
 
+.vizyon {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 
-
-
+  font-size: large;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+  justify-content: center;
+}
